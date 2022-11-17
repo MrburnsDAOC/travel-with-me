@@ -1,0 +1,205 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* TEXT STYLE > ALL: */
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 30px;
+
+  /* BACKGROUND IMAGE*/
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-4K-Travel-Wallpaper-HD.jpg);
+  background-color: #0a0a0c;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* TEXT STYLE > H1-H6: */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+h1,
+h2 {
+  font-size: 42px;
+}
+
+/*  TEXT STYLE > LINKS: */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* NAVIGATION BAR: */
+.navigation {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+  border: 2px white solid;
+}
+
+.navigation div {
+  margin: 5px 25px;
+}
+
+.navigation div:hover {
+  font-weight: bolder;
+}
+
+/* TEXT: */
+/* TEXT BOX: */
+.quote,
+.general-text,
+.route,
+.welcome-text {
+  background-color: rgba(5, 5, 5, 0.4);
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 1610px;
+}
+
+.quote p,
+.general-text p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.welcome-text {
+  text-align: center;
+}
+
+/* index QUOTE: */
+.quote {
+  font-style: italic;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote p + p {
+  font-size: small;
+}
+
+/* PICTURES: */
+/* PICTURES > FLEXBOX: */
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1650px;
+  min-width: 900px;
+  text-align: justify;
+}
+
+/* PICTURES > IMG - BORDER & WIDTH : */
+.picture img {
+  border: 2px white solid;
+  margin: 20px 20px 0px 0px;
+  width: 800px;
+}
+
+.picture p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 150%;
+  border: 2px white solid;
+  background-color: rgba(5, 5, 5, 0.4);
+  margin: 20px 20px 0px 0px;
+  width: 740px;
+  padding: 30px;
+}
+
+.canada-picture {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1650px;
+  /* min-width: 900px; */
+  text-align: justify;
+}
+
+.canada-picture img {
+  border: 2px white solid;
+  margin: 20px 20px 0px 0px;
+  width: 525px;
+}
+
+/* CAN: ROUTE */
+.route {
+  /* border: red solid 3px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1610px;
+  /* padding: 10px; */
+}
+
+.route iframe {
+  padding-left: 10px;
+}
+
+.route p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 150%;
+  margin-left: 50px;
+  max-width: 950px;
+  text-align: justify;
+}
+
+/* BACK TO TOP BUTTON */
+.back-to-top {
+  position: fixed;
+  right: 65px;
+  bottom: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  background-color: #0a0a0c;
+  border: 2px white solid;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+}
+
+/* BACK TO TOP BUTTON > HOVER EFECT */
+.back-to-top:hover {
+  font-weight: bold;
+  border: 4px white solid;
+}
+
+.flag img {
+  position: fixed;
+  width: 120px;
+  height: 60px;
+  right: 65px;
+  top: 50px;
+  border: 2px white solid;
+}
